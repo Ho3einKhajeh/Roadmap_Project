@@ -1,0 +1,163 @@
+{
+  "DevOps Roadmap": {
+    "Operating Systems": [
+      "Linux",
+      "RHEL / Derivatives",
+      "Ubuntu / Debian",
+      "SUSE Linux",
+      "Unix (FreeBSD, OpenBSD, NetBSD)",
+      "Windows"
+    ],
+    "Editors": [
+      "Vim",
+      "Nano",
+      "Emacs"
+    ],
+    "Scripting": [
+      "Bash",
+      "Power Shell"
+    ],
+    "Version Control": [
+      "Git",
+      "GitHub",
+      "GitLab",
+      "Bitbucket"
+    ],
+    "Web Servers": [
+      "Apache",
+      "Nginx",
+      "Tomcat",
+      "IIS"
+    ],
+    "Networking": [
+      "OSI Model",
+      "DNS",
+      "HTTP",
+      "HTTPS",
+      "FTP / SFTP",
+      "SSL / TLS",
+      "SSH",
+      "Email (SMTP, IMAPS, POP3S, DMARC, SPF, Domain Keys, White/Grey Listing)"
+    ],
+    "Containers": [
+      "Docker",
+      "LXC"
+    ],
+    "Container Orchestration": [
+      "Docker Swarm",
+      "Kubernetes",
+      "GKE / EKS / AKS",
+      "AWS ECS / Fargate"
+    ],
+    "Infrastructure Provisioning": [
+      "Terraform",
+      "AWS CDK",
+      "Pulumi",
+      "CloudFormation"
+    ],
+    "Configuration Management": [
+      "Ansible",
+      "Chef",
+      "Puppet"
+    ],
+    "CI/CD Tools": [
+      "Jenkins",
+      "Gitlab CI",
+      "Travis CI",
+      "GitHub Actions",
+      "TeamCity",
+      "Circle CI",
+      "Drone",
+      "Azure DevOps Services"
+    ],
+    "GitOps": [
+      "ArgoCD",
+      "FluxCD"
+    ],
+    "Service Mesh": [
+      "Consul",
+      "Istio",
+      "Envoy",
+      "Linkerd"
+    ],
+    "Cloud Providers": [
+      "AWS",
+      "Google Cloud",
+      "Azure",
+      "Digital Ocean",
+      "Heroku",
+      "Linode",
+      "Vultr",
+      "Alibaba Cloud"
+    ],
+    "Cloud Specific Tools": [],
+    "Serverless": [
+      "Cloudflare",
+      "AWS Lambda",
+      "Azure Functions",
+      "GCP Functions",
+      "Vercel",
+      "Netlify"
+    ],
+    "Monitoring": {
+      "Infrastructure Monitoring": [
+        "Grafana",
+        "Datadog",
+        "Zabbix",
+        "Prometheus"
+      ],
+      "Application Monitoring": [
+        "Jaeger",
+        "New Relic",
+        "AppDynamics",
+        "OpenTelemetry"
+      ]
+    },
+    "Logs Management": [
+      "Elastic Stack",
+      "Graylog",
+      "Splunk",
+      "Papertrail",
+      "Loki"
+    ],
+    "Artifact Management": [
+      "Artifactory",
+      "Nexus",
+      "Cloud Smith"
+    ],
+    "Secret Management": [
+      "Vault",
+      "Sealed Secrets",
+      "SOPS"
+    ],
+    "Cloud Design Patterns": [
+      "Availability",
+      "Data Management",
+      "Design and Implementation",
+      "Management and Monitoring",
+      "Networking, Security and Protocols"
+    ],
+    "Programming Languages": [
+      "Python",
+      "Go",
+      "JavaScript / Node.js",
+      "Rust",
+      "Ruby"
+    ],
+    "Terminal Skills": [
+      "Learn to live in Terminal",
+      "Process Monitoring",
+      "Performance Monitoring",
+      "Text Manipulation"
+    ],
+    "Resources": [
+      "DevOps Bootcamp by Nana (Paid)",
+      "KodeCloud DevOps Courses (Paid)"
+    ],
+    "Other": [
+      "Visit the Beginner Version",
+      "Learn anytime (order not strict)",
+      "Alternative options (pick one)"
+    ]
+  }
+}
