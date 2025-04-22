@@ -1,3 +1,82 @@
+// مدیریت وضعیت کاربر
+let currentUser = null;
+
+// اضافه کردن event listener برای فرم لاگین
+document.addEventListener('DOMContentLoaded', function() {
+    const loginBtn = document.getElementById('loginBtn');
+    const loginContainer = document.getElementById('login-container');
+    const mainContainer = document.getElementById('main-container');
+    const welcomeMessage = document.getElementById('welcome-message');
+    const errorMessage = document.getElementById('error-message');
+
+    loginBtn.addEventListener('click', function() {
+        const firstName = document.getElementById('firstName').value.trim();
+        const lastName = document.getElementById('lastName').value.trim();
+        let errors = [];
+
+        if (!firstName) {
+            errors.push('لطفاً نام خود را وارد کنید');
+        }
+        if (!lastName) {
+            errors.push('لطفاً نام خانوادگی خود را وارد کنید');
+        }
+
+        if (errors.length > 0) {
+            errorMessage.innerHTML = errors.join('<br>');
+            errorMessage.style.display = 'block';
+            return;
+        }
+
+        errorMessage.style.display = 'none';
+        currentUser = { firstName, lastName };
+        loginContainer.style.display = 'none';
+        mainContainer.style.display = 'block';
+        welcomeMessage.innerHTML = `<h2>خوش آمدید ${firstName} ${lastName} عزیز!</h2>`;
+    });
+});
+
+// تابع شروع مجدد
+function restartApp() {
+    // پاک کردن وضعیت کاربر
+    currentUser = null;
+    
+    // پاک کردن مقادیر ورودی‌ها
+    document.getElementById('firstName').value = '';
+    document.getElementById('lastName').value = '';
+    
+    // پاک کردن پاسخ‌های کاربر
+    userAnswers = {};
+    currentQuestionIndex = 0;
+    currentPath = null;
+    
+    // نمایش صفحه لاگین و مخفی کردن صفحه اصلی
+    document.getElementById('login-container').style.display = 'block';
+    document.getElementById('main-container').style.display = 'none';
+    
+    // پاک کردن محتوای main-container
+    document.getElementById('main-container').innerHTML = `
+        <div id="welcome-message"></div>
+        <div class="buttons-container">
+            <button class="path-btn" data-path="frontend">فرانت‌اند</button>
+            <button class="path-btn" data-path="backend">بک‌اند</button>
+            <button class="path-btn" data-path="devops">DevOps</button>
+            <button class="path-btn" data-path="fullstack">فول‌استک</button>
+            <button class="path-btn" data-path="react">React</button>
+        </div>
+    `;
+    
+    // اضافه کردن event listener‌ها به دکمه‌های مسیر
+    const buttons = document.querySelectorAll('.path-btn');
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            currentPath = button.dataset.path;
+            currentQuestionIndex = 0;
+            userAnswers = {};
+            showQuestion(data[currentPath].questions);
+        });
+    });
+}
+
 // داده‌های سوالات و roadmap
 const data = {
     frontend: {
@@ -1509,8 +1588,8 @@ document.addEventListener('DOMContentLoaded', () => {
 function showQuestion(questions) {
     const question = questions[currentQuestionIndex];
     
-    const container = document.querySelector('.container');
-    container.innerHTML = `
+    const mainContainer = document.getElementById('main-container');
+    mainContainer.innerHTML = `
         <h1>${question.question}</h1>
         <p class="question-counter">سوال ${currentQuestionIndex + 1} از ${questions.length}</p>
         <div class="buttons-container">
@@ -1541,13 +1620,11 @@ function showQuestion(questions) {
             }, 250); // 250 میلی‌ثانیه مکث
         });
     });
-    
 }
 
-
 function showRoadmap(roadmap) {
-    const container = document.querySelector('.container');
-    container.innerHTML = `
+    const mainContainer = document.getElementById('main-container');
+    mainContainer.innerHTML = `
         <h1>راهنمای مسیر یادگیری ${currentPath}</h1>
         <div class="roadmap">
             ${Object.entries(roadmap).map(([section, items]) => `
@@ -1574,7 +1651,7 @@ function showRoadmap(roadmap) {
             `).join('')}
         </div>
         <div class="buttons-container">
-            <button class="path-btn" onclick="location.reload()">شروع مجدد</button>
+            <button class="path-btn" onclick="restartApp()">شروع مجدد</button>
         </div>
     `;
-} 
+}

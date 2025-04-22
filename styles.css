@@ -221,3 +221,55 @@ body {
   font-weight: 600;
   color: #333;                /* رنگ تیره برای عنوان‌ها */
 }
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.login-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 16px;
+}
+
+.login-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #45a049;
+}
+
+#welcome-message {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.error-message {
+    color: #ff0000;
+    background-color: #ffebee;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 14px;
+    border: 1px solid #ffcdd2;
+}
