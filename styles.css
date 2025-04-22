@@ -159,3 +159,52 @@ body {
     cursor: default;
   }
   
+  .path-btn {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.path-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+.roadmap {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.roadmap-section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.roadmap ul {
+    list-style-type: none;
+    padding-right: 1rem;
+}
+
+.roadmap li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: #e9f7ef;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.roadmap li:hover {
+    background-color: #d4edda;
+    transform: translateX(-5px);
+}
