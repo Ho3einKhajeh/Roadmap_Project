@@ -1523,17 +1523,27 @@ function showQuestion(questions) {
     const answerButtons = document.querySelectorAll('.answer-btn');
     answerButtons.forEach(btn => {
         btn.addEventListener('click', () => {
-            userAnswers[currentQuestionIndex] = btn.dataset.answer;
-            currentQuestionIndex++;
-            
-            if (currentQuestionIndex < questions.length) {
-                showQuestion(questions);
-            } else {
-                showRoadmap(data[currentPath].roadmap);
-            }
+            // همه دکمه ها از حالت انتخاب خارج شوند
+            answerButtons.forEach(b => b.classList.remove('selected'));
+            // دکمه کلیک شده انتخاب شود
+            btn.classList.add('selected');
+    
+            // با یک تاخیر کوتاه (برای نمایش افکت انتخاب) سوال بعدی لود شود
+            setTimeout(() => {
+                userAnswers[currentQuestionIndex] = btn.dataset.answer;
+                currentQuestionIndex++;
+                
+                if (currentQuestionIndex < questions.length) {
+                    showQuestion(questions);
+                } else {
+                    showRoadmap(data[currentPath].roadmap);
+                }
+            }, 250); // 250 میلی‌ثانیه مکث
         });
     });
+    
 }
+
 
 function showRoadmap(roadmap) {
     const container = document.querySelector('.container');
