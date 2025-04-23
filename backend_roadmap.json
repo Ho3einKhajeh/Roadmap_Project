@@ -1,0 +1,130 @@
+{
+  "Backend Roadmap": {
+    "Programming Languages": [
+      "JavaScript",
+      "Python",
+      "Go",
+      "Java",
+      "Rust",
+      "C#",
+      "PHP",
+      "Ruby"
+    ],
+    "Internet Fundamentals": [
+      "How does the internet work?",
+      "What is HTTP?",
+      "What is Domain Name",
+      "What is hosting?",
+      "DNS and how it works?",
+      "Browsers and how they work?"
+    ],
+    "Operating Systems": {
+      "Knowledge": [
+        "Memory Management",
+        "Interprocess Communication",
+        "I/O Management",
+        "POSIX Basics",
+        "Basic Networking Concepts",
+        "Process Management",
+        "Threads and Concurrency",
+        "How OSs work in General"
+      ],
+      "Terminal Usage": [
+        "Basic Terminal Commands: grep, awk, sed, lsof, curl, wget, tail, head, less, find, ssh, kill, dig"
+      ]
+    },
+    "Version Control": {
+      "Systems": ["Git"],
+      "Repo Hosting": ["GitHub", "GitLab", "Bitbucket"]
+    },
+    "Software Design & Architecture": [
+      "GOF Design Patterns",
+      "Domain Driven Design",
+      "Test Driven Development",
+      "CQRS",
+      "Event Sourcing",
+      "Service Mesh",
+      "Twelve Factor Apps"
+    ],
+    "Architectural Patterns": [
+      "Monolithic Apps",
+      "Microservices",
+      "SOA"
+    ],
+    "Databases": {
+      "Relational": ["PostgreSQL", "MySQL", "MariaDB", "MS SQL", "Oracle"],
+      "NoSQL": {
+        "Document DBs": ["MongoDB", "CouchDB"],
+        "Time Series": ["InfluxDB", "TimeScale"],
+        "Realtime": ["Firebase", "RethinkDB"],
+        "Column DBs": ["Cassandra", "HBase"],
+        "Key-Value": ["Redis", "DynamoDB"],
+        "Graph DBs": ["Neo4j"]
+      },
+      "Concepts": [
+        "ACID",
+        "Transactions",
+        "N+1 Problem",
+        "Sharding Strategies",
+        "Normalization",
+        "Data Replication",
+        "Database Indexes",
+        "Scaling Databases"
+      ]
+    },
+    "APIs": {
+      "Types": ["REST", "JSON APIs", "SOAP", "HATEOAS", "Open API Specs", "gRPC"],
+      "Authentication": [
+        "OAuth",
+        "Basic Auth",
+        "Token Auth",
+        "JWT",
+        "OpenID",
+        "SAML",
+        "Cookie Based"
+      ]
+    },
+    "GraphQL": ["Apollo", "Relay Modern"],
+    "Caching": ["Redis", "Memcached", "Client Side", "Server Side", "CDN"],
+    "Web Servers": ["Nginx", "Apache", "Caddy", "MS IIS"],
+    "Containerization": ["Docker", "LXC"],
+    "Authentication & Security": [
+      "CORS",
+      "HTTPS",
+      "Content Security Policy",
+      "OWASP Risks",
+      "SSL/TLS"
+    ],
+    "Hashing Algorithms": ["MD5", "SHA Family", "scrypt", "bcrypt"],
+    "Testing": ["Unit Testing", "Integration Testing", "Functional Testing"],
+    "CI/CD": ["CI / CD"],
+    "Observability": [
+      "Metrics",
+      "Logging",
+      "Profiling Performance",
+      "Instrumentation",
+      "Monitoring",
+      "Telemetry"
+    ],
+    "Search Engines": ["Elasticsearch", "Solr"],
+    "Message Brokers": ["RabbitMQ", "Kafka"],
+    "Serverless": true,
+    "Migration Strategies": true,
+    "Scaling": [
+      "Types of Scaling",
+      "Mitigation Strategies",
+      "Graceful Degradation",
+      "Throttling",
+      "Backpressure",
+      "Loadshifting",
+      "Circuit Breaker",
+      "Failure Modes"
+    ],
+    "Frameworks and Tools": ["ORMs", "Kubernetes"],
+    "Others": {
+      "Server Sent Events": true,
+      "Use DevOps Roadmap": true
+    },
+    "Website": "https://roadmap.sh"
+  }
+}

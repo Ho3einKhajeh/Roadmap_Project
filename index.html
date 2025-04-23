@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>راهنمای مسیر شغلی برنامه‌نویسی</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login-container" class="container">
+        <h1>ورود به سیستم</h1>
+        <div id="error-message" class="error-message" style="display: none;"></div>
+        <div class="login-form">
+            <input type="text" id="firstName" placeholder="نام" required>
+            <input type="text" id="lastName" placeholder="نام خانوادگی" required>
+            <button id="loginBtn" class="login-btn">ورود</button>
+        </div>
+    </div>
+    <div id="main-container" class="container" style="display: none;">
+        <div id="welcome-message"></div>
+        <div class="buttons-container">
+            <button class="path-btn" data-path="frontend">فرانت‌اند</button>
+            <button class="path-btn" data-path="backend">بک‌اند</button>
+            <button class="path-btn" data-path="devops">DevOps</button>
+            <button class="path-btn" data-path="fullstack">فول‌استک</button>
+            <button class="path-btn" data-path="react">React</button>
+        </div>
+    </div>
+    <script>
+        // تعریف متغیرهای global برای داده‌ها
+        window.roadmapData = {};
+        window.questionsData = {};
+    </script>
+    <script src="mappings.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

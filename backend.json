@@ -1,0 +1,204 @@
+[
+  {
+    "question": "How much experience do you have in backend development?",
+    "options": [
+      "No experience, I'm a beginner",
+      "Basic level, I have taken some courses",
+      "Intermediate, I have worked on small projects",
+      "Advanced, I have worked on real-world projects"
+    ],
+    "type": "radio"
+  },
+  {
+    "question": "Have you worked in a professional backend development team?",
+    "options": [
+      "No, I have no experience",
+      "Only worked on personal projects",
+      "Worked in small teams or startups",
+      "Worked in large-scale backend development teams"
+    ],
+    "type": "radio"
+  },
+  {
+    "question": "Which backend programming languages do you know?",
+    "options": [
+      "None",
+      "Python",
+      "JavaScript (Node.js)",
+      "Java / C# / Go / Rust / PHP"
+    ],
+    "type": "checkbox"
+  },
+  {
+    "question": "Which backend framework or runtime have you worked with?",
+    "options": [
+      "None",
+      "Express.js (Node.js)",
+      "Django / Flask (Python)",
+      "Spring Boot (Java)",
+      ".NET Core (C#)",
+      "Laravel (PHP)"
+    ],
+    "type": "checkbox"
+  },
+  {
+    "question": "How proficient are you with databases?",
+    "options": [
+      "No knowledge",
+      "Basic knowledge (CRUD operations, simple queries)",
+      "Intermediate (Joins, Indexing, Normalization)",
+      "Advanced (Optimization, Transactions, Sharding, Replication)"
+    ],
+    "type": "radio"
+  },
+  {
+    "question": "Which databases have you worked with?",
+    "options": [
+      "None",
+      "Relational Databases (MySQL, PostgreSQL, MS SQL)",
+      "NoSQL Databases (MongoDB, Firebase, CouchDB)",
+      "Key-Value Stores (Redis, DynamoDB)"
+    ],
+    "type": "checkbox"
+  },
+  {
+    "question": "Are you familiar with caching strategies?",
+    "options": [
+      "No knowledge",
+      "I understand basic caching (Client-side, Browser cache)",
+      "I have worked with Redis / Memcached for caching",
+      "I can design advanced caching solutions"
+    ],
+    "type": "radio"
+  },
+  {
+    "question": "Are you familiar with authentication and authorization?",
+    "options": [
+      "No knowledge",
+      "Basic authentication (Session-based, Cookie-based)",
+      "Token-based authentication (JWT, OAuth)",
+      "Advanced authentication (OpenID, SAML, multi-factor authentication)"
+    ],
+    "type": "radio"
+  },
+  {
+    "question": "How well do you understand API development?",
+    "options": [
+      "No experience",
+      "I can build basic RESTful APIs",
+      "I have experience with RESTful APIs and GraphQL",
+      "I can build complex APIs with rate-limiting, security, and monitoring"
+    ],
+    "type": "radio"
+  },
+  {
+    "question": "Are you familiar with API documentation and standards?",
+    "options": [
+      "No experience",
+      "I have worked with OpenAPI (Swagger)",
+      "I have experience documenting APIs using API Blueprint or RAML",
+      "I have built enterprise-grade API documentation"
+    ],
+    "type": "radio"
+  },
+  {
+    "question": "How well do you understand web security concepts?",
+    "options": [
+      "No knowledge",
+      "Basic knowledge (CORS, HTTPS)",
+      "Intermediate (SQL Injection, XSS, CSRF prevention)",
+      "Advanced (OWASP Top 10, Secure API design, Security audits)"
+    ],
+    "type": "radio"
+  },
+  {
+    "question": "Have you worked with cloud platforms?",
+    "options": [
+      "No experience",
+      "I have deployed applications on AWS/Azure/GCP",
+      "I have experience with cloud storage, databases, and compute services",
+      "I have designed and optimized cloud infrastructure"
+    ],
+    "type": "radio"
+  },
+  {
+    "question": "How familiar are you with DevOps and CI/CD pipelines?",
+    "options": [
+      "No knowledge",
+      "I understand the basics (GitHub Actions, Jenkins, CI/CD concepts)",
+      "I have implemented CI/CD pipelines for small projects",
+      "I have experience managing large-scale DevOps automation"
+    ],
+    "type": "radio"
+  },
+  {
+    "question": "How proficient are you in using Docker and containerization?",
+    "options": [
+      "No experience",
+      "I have used Docker for local development",
+      "I have deployed applications using Docker and Kubernetes",
+      "I have optimized and managed container orchestration at scale"
+    ],
+    "type": "radio"
+  },
+  {
+    "question": "Do you understand server architecture patterns?",
+    "options": [
+      "No experience",
+      "Basic knowledge (Monolithic, Microservices)",
+      "I have designed microservices-based applications",
+      "I have implemented complex architectures (Event-driven, SOA, CQRS)"
+    ],
+    "type": "radio"
+  },
+  {
+    "question": "Have you worked with message queues or event-driven architectures?",
+    "options": [
+      "No experience",
+      "I have worked with simple message brokers (RabbitMQ, Kafka)",
+      "I have built event-driven applications",
+      "I have experience designing distributed event-based systems"
+    ],
+    "type": "radio"
+  },
+  {
+    "question": "How well do you understand database scalability strategies?",
+    "options": [
+      "No experience",
+      "I understand the basics of scaling",
+      "I have implemented replication and sharding strategies",
+      "I have designed high-availability database architectures"
+    ],
+    "type": "radio"
+  },
+  {
+    "question": "How well do you handle backend performance optimization?",
+    "options": [
+      "No knowledge",
+      "I can do simple optimizations (query indexing, caching)",
+      "I have experience profiling backend performance",
+      "I have built high-performance backend systems"
+    ],
+    "type": "radio"
+  },
+  {
+    "question": "Why do you want to learn backend development?",
+    "options": [
+      "To enter the job market",
+      "To improve my backend development skills",
+      "To transition to a backend-focused role",
+      "To build scalable and efficient web applications"
+    ],
+    "type": "radio"
+  },
+  {
+    "question": "How much time per week can you dedicate to learning backend development?",
+    "options": [
+      "Less than 5 hours",
+      "5 to 10 hours",
+      "10 to 20 hours",
+      "More than 20 hours"
+    ],
+    "type": "radio"
+  }
+]

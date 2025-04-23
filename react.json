@@ -1,0 +1,182 @@
+  [
+    {
+    "question": "How much experience do you have with React?",
+    "options": [
+      "No experience, I’m a beginner",
+      "Basic level, I have built simple components",
+      "Intermediate, I have built small projects",
+      "Advanced, I have built production-level applications"
+    ]
+  },
+  {
+    "question": "Have you ever worked in a team that used React?",
+    "options": [
+      "No, I only worked on personal projects",
+      "I have participated in small team projects",
+      "I have worked in startups",
+      "I have worked in large-scale professional teams"
+    ]
+  },
+  {
+    "question": "Which of the following React areas have you learned so far?",
+    "options": [
+      "None",
+      "JSX, Props & State",
+      "Functional Components & Hooks",
+      "Class Components and Lifecycle Methods"
+    ]
+  },
+  {
+    "question": "Have you built any React projects?",
+    "options": [
+      "No, I haven’t built any projects yet",
+      "I have built a few simple projects",
+      "I have built several projects in a team setting",
+      "I have built professional, large-scale React applications"
+    ]
+  },
+  {
+    "question": "How comfortable are you with the concept of JSX?",
+    "options": [
+      "Not at all familiar",
+      "Somewhat familiar",
+      "Comfortable with basic JSX",
+      "Fully proficient with complex JSX structures"
+    ]
+  },
+  {
+    "question": "How proficient are you with React Hooks (e.g., useState, useEffect)?",
+    "options": [
+      "I’m not familiar with Hooks",
+      "I understand basic hooks like useState and useEffect",
+      "I regularly use hooks, including custom hooks",
+      "I’m advanced in optimizing performance with hooks (useCallback, useMemo, etc.)"
+    ]
+  },
+  {
+    "question": "How do you handle side effects in your React applications?",
+    "options": [
+      "I don’t handle side effects",
+      "I use the useEffect hook for basic side effects",
+      "I sometimes use external libraries for advanced side effects",
+      "I am fully proficient in managing side effects with custom hooks and advanced techniques"
+    ]
+  },
+  {
+    "question": "How familiar are you with React Router (or other routing libraries)?",
+    "options": [
+      "I have never used a routing library",
+      "I have basic experience with React Router",
+      "I have used both React Router and Reach Router",
+      "I have advanced experience with complex routing techniques"
+    ]
+  },
+  {
+    "question": "How do you manage state in your React applications?",
+    "options": [
+      "I only use local component state",
+      "I use Context API for simple state management",
+      "I use Redux or similar libraries for global state",
+      "I combine multiple approaches (local state, Context, Redux, etc.) effectively"
+    ]
+  },
+  {
+    "question": "Which styling methods have you used in React?",
+    "options": [
+      "I only use plain CSS",
+      "I use CSS frameworks like Bootstrap",
+      "I use CSS-in-JS libraries such as Styled Components or Emotion",
+      "I use a combination of approaches tailored to project needs"
+    ]
+  },
+  {
+    "question": "How proficient are you in making API calls in React?",
+    "options": [
+      "I have not made API calls",
+      "I use the Fetch API for basic calls",
+      "I use Axios for API calls",
+      "I use advanced libraries like react-query or SWR for efficient data fetching"
+    ]
+  },
+  {
+    "question": "Have you implemented error boundaries in your React applications?",
+    "options": [
+      "No, I haven’t implemented error boundaries",
+      "I have basic knowledge about them",
+      "I have implemented them in simple projects",
+      "I am proficient in using error boundaries for robust error handling"
+    ]
+  },
+  {
+    "question": "How familiar are you with React Suspense?",
+    "options": [
+      "Not at all familiar",
+      "I have heard about it but haven’t used it",
+      "I have used Suspense for lazy loading components",
+      "I have advanced experience with Suspense in concurrent mode"
+    ]
+  },
+  {
+    "question": "How do you manage component communication in React?",
+    "options": [
+      "I rely solely on props drilling",
+      "I use event handlers and callbacks",
+      "I use the Context API to share state globally",
+      "I combine multiple approaches effectively for component communication"
+    ]
+  },
+  {
+    "question": "How experienced are you in writing custom hooks?",
+    "options": [
+      "I have never written a custom hook",
+      "I have written one or two simple custom hooks",
+      "I regularly write custom hooks to abstract logic",
+      "I am proficient in designing complex custom hooks for performance and reusability"
+    ]
+  },
+  {
+    "question": "Which build tool do you primarily use for your React projects?",
+    "options": [
+      "I do not use a build tool",
+      "I use Create React App for basic projects",
+      "I use Vite or a custom Webpack configuration",
+      "I have experience with advanced build optimizations and custom configurations"
+    ]
+  },
+  {
+    "question": "How comfortable are you with web security concepts in React?",
+    "options": [
+      "Not at all familiar",
+      "I have basic knowledge",
+      "I can implement basic security solutions",
+      "I am fully proficient and perform security testing"
+    ]
+  },
+  {
+    "question": "How proficient are you in testing your React components?",
+    "options": [
+      "I have never tested my components",
+      "I have done basic tests using Jest",
+      "I use React Testing Library for component testing",
+      "I have advanced experience with end-to-end testing using Cypress or Playwright"
+    ]
+  },
+  {
+    "question": "Why do you want to learn React?",
+    "options": [
+      "To enter the job market",
+      "To improve my technical skills",
+      "To build dynamic and responsive web applications",
+      "For personal interest and to create innovative projects"
+    ]
+  },
+  {
+    "question": "How much time per week can you dedicate to learning React?",
+    "options": [
+      "Less than 5 hours",
+      "5 to 10 hours",
+      "10 to 20 hours",
+      "More than 20 hours"
+    ]
+  }
+]

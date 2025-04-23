@@ -1,0 +1,113 @@
+{
+  "React Roadmap": {
+    "CLI Tools": [
+      "Create React App",
+      "Vite"
+    ],
+    "Components": {
+      "Basics": [
+        "JSX",
+        "Props vs State",
+        "Conditional Rendering",
+        "Composition",
+        "Rendering",
+        "Lists and Keys"
+      ],
+      "Types": [
+        "Functional Components",
+        "Class Components"
+      ],
+      "Advanced": [
+        "Component Life Cycle",
+        "Render Props",
+        "Refs",
+        "Events",
+        "High Order Components"
+      ]
+    },
+    "Hooks": {
+      "Basic": [
+        "useState",
+        "useEffect"
+      ],
+      "Advanced": [
+        "useRef",
+        "useCallback",
+        "useMemo",
+        "useReducer",
+        "useContext",
+        "Writing Custom Hooks",
+        "Common Hooks"
+      ]
+    },
+    "Routing": [
+      "React Router",
+      "Reach Router"
+    ],
+    "State Management": [
+      "Context",
+      "Zustand",
+      "Redux / Toolkit",
+      "MobX",
+      "Recoil"
+    ],
+    "Styling": [
+      "Chakra UI",
+      "Material UI",
+      "Mantine",
+      "Tailwind",
+      "Styled Components",
+      "Emotion"
+    ],
+    "API Calls": {
+      "GraphQL": [
+        "Apollo",
+        "Relay",
+        "Urql"
+      ],
+      "REST": [
+        "SWR",
+        "Axios",
+        "superagent",
+        "react-query"
+      ]
+    },
+    "Testing": [
+      "Jest",
+      "Vitest",
+      "React Testing Library",
+      "Cypress",
+      "Playwright"
+    ],
+    "Frameworks": [
+      "Next.js",
+      "Remix"
+    ],
+    "Forms": [
+      "React Hook Form",
+      "Formik",
+      "Final Form"
+    ],
+    "Advanced Topics": [
+      "Suspense",
+      "Portals",
+      "Error Boundaries",
+      "Fiber Architecture"
+    ],
+    "Mobile": [
+      "React Native"
+    ],
+    "Notes": {
+      "Website": "https://roadmap.sh",
+      "Related Roadmaps": [
+        "JavaScript Roadmap",
+        "Frontend Developer Roadmap"
+      ],
+      "Recommendations": [
+        "Order not strict",
+        "Pick purple or alternative",
+        "Some tools not recommended"
+      ]
+    }
+  }
+}

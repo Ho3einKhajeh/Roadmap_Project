@@ -1,0 +1,188 @@
+[
+  {
+  "Frontend_Skills_Assessment": {
+    "1": {
+      "question": "How much experience do you have in frontend development?",
+      "options": [
+        "No experience, I'm a beginner",
+        "Basic level, I have taken some courses",
+        "Intermediate, I have worked on small projects",
+        "Advanced, I have worked on real-world projects"
+      ]
+    },
+    "2": {
+      "question": "Have you ever worked in a software development team?",
+      "options": [
+        "No, I have no team experience",
+        "Only worked on personal projects",
+        "Worked in small teams or startups",
+        "Worked in professional development teams"
+      ]
+    },
+    "3": {
+      "question": "Which frontend areas have you learned so far?",
+      "type": "multiple",
+      "options": [
+        "None",
+        "HTML & CSS",
+        "JavaScript",
+        "A frontend framework (React, Vue, Angular)"
+      ]
+    },
+    "4": {
+      "question": "Have you worked on any frontend projects?",
+      "options": [
+        "No, I haven’t worked on any projects yet",
+        "I have done small and practice projects",
+        "I have worked on medium-sized and team projects",
+        "I have worked on professional and large-scale projects"
+      ]
+    },
+    "5": {
+      "question": "Are you familiar with concepts such as HTTP, DNS, and Hosting?",
+      "options": [
+        "No, I have no knowledge",
+        "Slightly familiar, but need to learn more",
+        "I understand them but have no hands-on experience",
+        "I am fully proficient and have hands-on experience"
+      ]
+    },
+    "6": {
+      "question": "Are you familiar with how browsers and rendering engines work?",
+      "options": [
+        "No, I have no knowledge",
+        "I have basic understanding",
+        "I know how browsers process pages",
+        "I have deep experience and technical knowledge"
+      ]
+    },
+    "7": {
+      "question": "Are you familiar with HTML principles and Semantic HTML?",
+      "options": [
+        "No, I need to learn",
+        "I have basic understanding",
+        "I have good knowledge but need more practice",
+        "I am fully proficient and use it in projects"
+      ]
+    },
+    "8": {
+      "question": "What are your skills in CSS?",
+      "options": [
+        "No knowledge",
+        "Basic skills (Selectors, Properties)",
+        "Intermediate skills (Responsive Design, Flexbox, Grid)",
+        "Advanced skills (CSS Animations, SCSS, Tailwind)"
+      ]
+    },
+    "9": {
+      "question": "Are you familiar with UI/UX design principles and design tools?",
+      "options": [
+        "No, I have no knowledge",
+        "I know the basics (like spacing and color theory)",
+        "I have experience with tools like Figma or Adobe XD",
+        "I am fully proficient and have professional design experience"
+      ]
+    },
+    "10": {
+      "question": "Have you used CSS frameworks such as Bootstrap or Tailwind CSS?",
+      "options": [
+        "No, I have no knowledge",
+        "I have basic experience using prebuilt classes",
+        "I can create custom templates",
+        "I have advanced experience optimizing and customizing them"
+      ]
+    },
+    "11": {
+      "question": "What is your skill level in JavaScript?",
+      "options": [
+        "No experience",
+        "Basic (Conditions, Loops, Functions)",
+        "Intermediate (DOM, Event Handling)",
+        "Advanced (Async/Await, Promises, Closures, Functional Programming)"
+      ]
+    },
+    "12": {
+      "question": "Which of the following JavaScript concepts do you know?",
+      "type": "multiple",
+      "options": [
+        "None",
+        "DOM Manipulation",
+        "Fetch API / Ajax",
+        "ES6+ (let, const, arrow functions, promises)"
+      ]
+    },
+    "13": {
+      "question": "Have you ever used Git and GitHub for version control?",
+      "options": [
+        "No, I have no experience",
+        "I have used it for saving and committing",
+        "I know branching and pull requests",
+        "I am fully proficient and use Git professionally"
+      ]
+    },
+    "14": {
+      "question": "Do you have experience debugging and testing frontend code?",
+      "options": [
+        "No, I have no experience",
+        "I have used browser DevTools",
+        "I have intermediate debugging skills",
+        "I have experience writing automated tests with Jest, Cypress"
+      ]
+    },
+    "15": {
+      "question": "Have you worked with package managers like npm or yarn?",
+      "options": [
+        "No, I have no knowledge",
+        "I have installed packages",
+        "I can manage dependencies and scripts",
+        "I have professional experience with monorepo and advanced workflows"
+      ]
+    },
+    "16": {
+      "question": "Have you used Webpack, Vite, or Parcel to manage frontend projects?",
+      "options": [
+        "No, I have no knowledge",
+        "I have installed and used basic configurations",
+        "I can create custom configurations",
+        "I have professional experience optimizing and managing builds"
+      ]
+    },
+    "17": {
+      "question": "Are you familiar with web security concepts such as CORS, HTTPS, and Content Security Policy?",
+      "options": [
+        "No, I have no knowledge",
+        "I have basic knowledge about CORS and HTTPS",
+        "I can implement basic security solutions",
+        "I am fully proficient and perform security testing"
+      ]
+    },
+    "18": {
+      "question": "Have you ever used Lighthouse to evaluate website performance?",
+      "options": [
+        "No, I have never used it",
+        "I have basic familiarity",
+        "I have used it several times",
+        "I am proficient in performance optimization"
+      ]
+    },
+    "19": {
+      "question": "Why do you want to learn frontend development?",
+      "options": [
+        "To enter the job market",
+        "To improve my job skills",
+        "To switch careers to frontend development",
+        "To build personal projects and for personal interest"
+      ]
+    },
+    "20": {
+      "question": "How much time per week can you dedicate to learning?",
+      "options": [
+        "Less than 5 hours",
+        "5 to 10 hours",
+        "10 to 20 hours",
+        "More than 20 hours"
+      ]
+    }
+  }
+}
+]

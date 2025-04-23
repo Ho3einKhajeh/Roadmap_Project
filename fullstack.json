@@ -1,0 +1,182 @@
+[
+  {
+    "question": "How much experience do you have in full stack development?",
+    "options": [
+      "No experience, I’m a beginner",
+      "Basic level, I have taken some courses",
+      "Intermediate, I have built small full stack projects",
+      "Advanced, I have built professional full stack applications"
+    ]
+  },
+  {
+    "question": "Have you worked in a team that handled both frontend and backend development?",
+    "options": [
+      "No, I have only personal projects",
+      "Only worked on small team projects",
+      "Worked in startups",
+      "Worked in large-scale professional teams"
+    ]
+  },
+  {
+    "question": "Which frontend technologies are you comfortable with?",
+    "options": [
+      "None",
+      "HTML & CSS",
+      "JavaScript",
+      "A frontend framework (React, Angular, Vue)"
+    ]
+  },
+  {
+    "question": "Which backend technologies have you worked with?",
+    "options": [
+      "None",
+      "Node.js",
+      "Python (Django/Flask/FastAPI)",
+      "Java / C# / Other"
+    ]
+  },
+  {
+    "question": "How proficient are you with databases in your projects?",
+    "options": [
+      "No knowledge",
+      "Basic (CRUD operations, simple queries)",
+      "Intermediate (Joins, indexing, normalization)",
+      "Advanced (optimization, transactions, scaling)"
+    ]
+  },
+  {
+    "question": "Which databases have you worked with?",
+    "options": [
+      "None",
+      "Relational Databases (MySQL, PostgreSQL, SQL Server)",
+      "NoSQL Databases (MongoDB, Firebase, CouchDB)",
+      "Key-Value Stores (Redis, DynamoDB)"
+    ]
+  },
+  {
+    "question": "Are you familiar with caching strategies?",
+    "options": [
+      "No knowledge",
+      "I understand basic caching (client-side, browser cache)",
+      "I have worked with Redis/Memcached",
+      "I can design advanced caching solutions"
+    ]
+  },
+  {
+    "question": "Are you familiar with authentication and authorization in backend systems?",
+    "options": [
+      "No knowledge",
+      "Basic (session-based, cookie-based auth)",
+      "Token-based (JWT, OAuth)",
+      "Advanced (OpenID, SAML, multi-factor authentication)"
+    ]
+  },
+  {
+    "question": "How well do you understand API development?",
+    "options": [
+      "No experience",
+      "I can build basic RESTful APIs",
+      "I have experience with RESTful APIs and GraphQL",
+      "I can build complex APIs with rate-limiting, security, and monitoring"
+    ]
+  },
+  {
+    "question": "Are you familiar with API documentation and standards?",
+    "options": [
+      "No experience",
+      "I have used OpenAPI (Swagger)",
+      "I have documented APIs using API Blueprint or RAML",
+      "I have built enterprise-grade API documentation"
+    ]
+  },
+  {
+    "question": "How well do you understand web security concepts for full stack applications?",
+    "options": [
+      "No knowledge",
+      "Basic (CORS, HTTPS)",
+      "Intermediate (SQL Injection, XSS, CSRF prevention)",
+      "Advanced (OWASP Top 10, secure API design, security audits)"
+    ]
+  },
+  {
+    "question": "Have you worked with cloud platforms for deploying full stack applications?",
+    "options": [
+      "No experience",
+      "I have deployed simple applications on AWS/Azure/GCP",
+      "I have experience with cloud storage, databases, and compute services",
+      "I have designed and optimized scalable cloud infrastructure"
+    ]
+  },
+  {
+    "question": "How familiar are you with DevOps and CI/CD pipelines in full stack projects?",
+    "options": [
+      "No knowledge",
+      "Basic understanding (GitHub Actions, Jenkins)",
+      "I have implemented CI/CD for small projects",
+      "I have managed large-scale DevOps automation"
+    ]
+  },
+  {
+    "question": "How proficient are you in using Docker and containerization?",
+    "options": [
+      "No experience",
+      "I have used Docker for local development",
+      "I have deployed applications using Docker and Kubernetes",
+      "I have optimized and managed container orchestration at scale"
+    ]
+  },
+  {
+    "question": "Do you understand server architecture patterns?",
+    "options": [
+      "No experience",
+      "Basic (Monolithic, Microservices)",
+      "I have designed microservices-based applications",
+      "I have implemented complex architectures (Event-driven, SOA, CQRS)"
+    ]
+  },
+  {
+    "question": "Have you worked with message queues or event-driven architectures?",
+    "options": [
+      "No experience",
+      "I have used simple message brokers (RabbitMQ, Kafka)",
+      "I have built event-driven applications",
+      "I have designed distributed event-based systems"
+    ]
+  },
+  {
+    "question": "How well do you understand database scalability strategies?",
+    "options": [
+      "No experience",
+      "I understand the basics of scaling",
+      "I have implemented replication and sharding",
+      "I have designed high-availability database architectures"
+    ]
+  },
+  {
+    "question": "How well do you handle backend performance optimization?",
+    "options": [
+      "No knowledge",
+      "I can perform simple optimizations (query indexing, caching)",
+      "I have experience profiling and improving performance",
+      "I have built high-performance, scalable backend systems"
+    ]
+  },
+  {
+    "question": "Why do you want to learn full stack development?",
+    "options": [
+      "To enter the job market",
+      "To improve my technical skills",
+      "To transition to a full stack role",
+      "To build scalable, efficient web applications"
+    ]
+  },
+  {
+    "question": "How much time per week can you dedicate to learning full stack development?",
+    "options": [
+      "Less than 5 hours",
+      "5 to 10 hours",
+      "10 to 20 hours",
+      "More than 20 hours"
+    ]
+  }
+]

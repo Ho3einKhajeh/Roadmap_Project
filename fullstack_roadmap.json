@@ -1,0 +1,66 @@
+{
+  "Full Stack Roadmap": {
+    "Frontend Basics": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Checkpoint — Static Webpages",
+      "Checkpoint — Interactivity",
+      "npm",
+      "Checkpoint — External Packages",
+      "Git",
+      "GitHub",
+      "Checkpoint — Collaborative Work"
+    ],
+    "Frontend Frameworks": [
+      "React",
+      "Tailwind",
+      "Checkpoint — Frontend Apps"
+    ],
+    "Backend Development": {
+      "Language Recommendation": "Node.js",
+      "Checkpoint — CLI Apps": true,
+      "Database": [
+        "PostgreSQL",
+        "Redis"
+      ],
+      "Checkpoint — Simple CRUD": true,
+      "RESTful APIs": true,
+      "JWT Auth": true,
+      "Checkpoint — Complete App": true
+    },
+    "DevOps Knowledge": {
+      "Linux Basics": true,
+      "AWS Services": [
+        "EC2",
+        "VPC",
+        "Route53",
+        "SES",
+        "S3"
+      ],
+      "Checkpoint — CI / CD": true,
+      "GitHub Actions": true,
+      "Checkpoint — Deployment": true,
+      "Monitoring Tools": [
+        "Monit"
+      ],
+      "Checkpoint — Monitoring": true,
+      "Automation Tools": [
+        "Ansible",
+        "Terraform"
+      ],
+      "Checkpoint — Automation": true,
+      "Checkpoint — Infrastructure": true
+    },
+    "Additional Notes": {
+      "Project Ideas Inside": true,
+      "Audience": "Absolute beginners wanting to get into full stack development",
+      "Continue Learning": [
+        "DevOps Roadmap",
+        "Backend Roadmap",
+        "Frontend Roadmap"
+      ],
+      "Website": "https://roadmap.sh"
+    }
+  }
+}

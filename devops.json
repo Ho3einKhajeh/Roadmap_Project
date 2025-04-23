@@ -1,0 +1,182 @@
+[
+  {
+    "question": "How much experience do you have in DevOps?",
+    "options": [
+      "No experience",
+      "Basic - Familiar with concepts but no hands-on experience",
+      "Intermediate - Worked on small projects or courses",
+      "Advanced - Hands-on experience in real-world projects"
+    ]
+  },
+  {
+    "question": "Are you familiar with Linux operating systems?",
+    "options": [
+      "No experience",
+      "Basic - Can run basic Linux commands",
+      "Intermediate - Manage users, processes, and services",
+      "Advanced - Deep knowledge in Linux administration"
+    ]
+  },
+  {
+    "question": "Do you have scripting experience (Bash, PowerShell)?",
+    "options": [
+      "No experience",
+      "Basic - Write simple scripts",
+      "Intermediate - Automate common tasks",
+      "Advanced - Write complex scripts for automation"
+    ]
+  },
+  {
+    "question": "What is your experience with Git and version control?",
+    "options": [
+      "No experience",
+      "Basic - Commit, push, pull",
+      "Intermediate - Merge, branching, conflict resolution",
+      "Advanced - Manage Git workflows in teams"
+    ]
+  },
+  {
+    "question": "How familiar are you with CI/CD (Continuous Integration/Continuous Deployment)?",
+    "options": [
+      "No experience",
+      "Basic - Understand the concept",
+      "Intermediate - Used Jenkins, GitLab CI/CD",
+      "Advanced - Designed full CI/CD pipelines"
+    ]
+  },
+  {
+    "question": "Have you worked with Docker and containerization?",
+    "options": [
+      "No experience",
+      "Basic - Understand Dockerfiles",
+      "Intermediate - Build, run, and manage containers",
+      "Advanced - Manage multi-container applications"
+    ]
+  },
+  {
+    "question": "Are you familiar with Kubernetes and container orchestration?",
+    "options": [
+      "No experience",
+      "Basic - Understand Kubernetes architecture",
+      "Intermediate - Deploy applications on Kubernetes",
+      "Advanced - Manage clusters and networking"
+    ]
+  },
+  {
+    "question": "Do you have experience with Infrastructure as Code (IaC) tools like Terraform?",
+    "options": [
+      "No experience",
+      "Basic - Read and understand IaC scripts",
+      "Intermediate - Write Terraform scripts",
+      "Advanced - Manage cloud infrastructure using Terraform"
+    ]
+  },
+  {
+    "question": "What is your experience with monitoring and logging tools?",
+    "options": [
+      "No experience",
+      "Basic - View logs with ELK/Grafana",
+      "Intermediate - Set up monitoring dashboards",
+      "Advanced - Optimize and analyze monitoring systems"
+    ]
+  },
+  {
+    "question": "How familiar are you with networking concepts (HTTP, DNS, Load Balancing)?",
+    "options": [
+      "No experience",
+      "Basic - Understand TCP/IP and HTTP",
+      "Intermediate - Configure load balancers",
+      "Advanced - Optimize network and troubleshoot issues"
+    ]
+  },
+  {
+    "question": "Have you worked with cloud platforms like AWS, Azure, GCP?",
+    "options": [
+      "No experience",
+      "Basic - Used basic cloud services",
+      "Intermediate - Deploy applications on the cloud",
+      "Advanced - Design and manage cloud architectures"
+    ]
+  },
+  {
+    "question": "What is your experience with CI/CD tools like Jenkins, GitHub Actions?",
+    "options": [
+      "No experience",
+      "Basic - Run pipelines",
+      "Intermediate - Create simple CI/CD pipelines",
+      "Advanced - Manage enterprise CI/CD workflows"
+    ]
+  },
+  {
+    "question": "Are you familiar with security practices in DevOps?",
+    "options": [
+      "No experience",
+      "Basic - Understand security principles",
+      "Intermediate - Use security scanning tools",
+      "Advanced - Implement DevSecOps practices"
+    ]
+  },
+  {
+    "question": "Do you have experience with configuration management tools (Ansible, Puppet)?",
+    "options": [
+      "No experience",
+      "Basic - Understand automation concepts",
+      "Intermediate - Write playbooks and scripts",
+      "Advanced - Automate entire infrastructure"
+    ]
+  },
+  {
+    "question": "Have you worked with log management tools (Splunk, ELK)?",
+    "options": [
+      "No experience",
+      "Basic - Read logs",
+      "Intermediate - Create log filters",
+      "Advanced - Set up complete log management systems"
+    ]
+  },
+  {
+    "question": "Have you used Infrastructure Monitoring tools (Datadog, Zabbix)?",
+    "options": [
+      "No experience",
+      "Basic - View monitoring metrics",
+      "Intermediate - Configure monitoring dashboards",
+      "Advanced - Optimize monitoring strategies"
+    ]
+  },
+  {
+    "question": "Have you managed reverse proxy and load balancers (Nginx, HAProxy)?",
+    "options": [
+      "No experience",
+      "Basic - Understand load balancing",
+      "Intermediate - Configure load balancers",
+      "Advanced - Optimize reverse proxies"
+    ]
+  },
+  {
+    "question": "What is your knowledge of Serverless Technologies (AWS Lambda)?",
+    "options": [
+      "No experience",
+      "Basic - Understand Serverless concepts",
+      "Intermediate - Deploy Serverless functions",
+      "Advanced - Architect large Serverless applications"
+    ]
+  },
+  {
+    "question": "Why do you want to learn DevOps?",
+    "options": [
+      "Career transition",
+      "Improve job skills",
+      "Build personal projects",
+      "Work as a DevOps Engineer"
+    ]
+  },
+  {
+    "question": "How much time per week can you dedicate to learning?",
+    "options": [
+      "Less than 5 hours",
+      "5 to 10 hours",
+      "10 to 20 hours",
+      "More than 20 hours"
+    ]
+  }
+]
