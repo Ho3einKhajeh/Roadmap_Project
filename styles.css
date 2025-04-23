@@ -273,3 +273,27 @@ body {
     font-size: 14px;
     border: 1px solid #ffcdd2;
 }
+
+.continue-btn {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.continue-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+.continue-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+}
